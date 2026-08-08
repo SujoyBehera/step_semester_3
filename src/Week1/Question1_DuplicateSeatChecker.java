@@ -1,8 +1,7 @@
 package Week1;
 
-// Question 1: The Exam Hall Seat Duplication Checker
-
 public class Question1_DuplicateSeatChecker {
+
 
     static void checkDuplicateSeats(int[] seatNumbers) {
         boolean duplicateFound = false;
