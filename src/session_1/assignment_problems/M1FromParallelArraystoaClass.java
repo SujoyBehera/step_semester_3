@@ -1,5 +1,5 @@
-package session_1.assignment_problems.M1;
-public class FromParallelArraystoaClass {
+package session_1.assignment_problems;
+public class M1FromParallelArraystoaClass {
 
     public static class PlacementRecord{
         String studentName;
