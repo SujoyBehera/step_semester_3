@@ -1,4 +1,4 @@
-package session_1.assignment_problems;
+package session_1.class_problems;
 public class M3OverloadedConstructorsforaCourse {
     public static class Course {
         String code;
