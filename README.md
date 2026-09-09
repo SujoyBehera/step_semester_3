@@ -8,45 +8,34 @@ A collection of my Semester 3 coursework, practice problems, assignments, and Ja
 
 Currently working through Java Object-Oriented Programming concepts and weekly assignments.
 
-#### Session 1
+#### Week 1 — Session 1
 
-Completed the initial OOP class problems covering:
+Completed classwork and assignment problems covering Java Strings, arrays, input handling, methods, validation, loops, and basic problem solving.
 
-- Classes and Objects
-- Constructors
-- Instance Methods
-- Encapsulation
-- Private Fields
-- Constructor Overloading
-- `this` Keyword
-- Reference Variables
-- Object Identity using `==`
-- Static Members
-- Static Methods
-- Instance vs Static
+#### Week 2 — Session 2
 
-#### Session 2
+Completed classwork and assignment problems covering String manipulation, validation, parsing, formatting, arrays, loops, and frequency analysis.
 
-Currently working through reinforced OOP problems covering:
+#### Week 3 — Session 3
 
-- OOP with Arrays of Objects
-- Constructor Chaining using `this()`
-- Default Values in Constructors
-- `final` Methods
-- Static Blocks
-- Static Fields
-- `instanceof`
-- Inheritance
-- Batch Processing using Arrays and Loops
-- Object-Oriented Design
+Completed classwork and assignment problems covering classes and objects, constructors, constructor overloading, `this`, `final`, static members, static blocks, and `instanceof`.
+
+#### Week 4 — Session 4
+
+Completed classwork and assignment problems covering constructor overloading, `this()`, `this`, `final`, static initialization, static members, and `instanceof`.
 
 ### Problems Completed
 
-| Session | Section | Progress |
-|--------|---------|----------|
-| Session 1 | OOP Class Problems | ✅ M1–M5 |
-| Session 2 | OOP Class Problems | 🔄 M1–M5 |
-| Session 2 | Assignment Problems | 🔄 In Progress |
+| Week | Session | Section | Progress |
+|------|---------|---------|----------|
+| Week 1 | Session 1 | Class Problems | ✅ Complete |
+| Week 1 | Session 1 | Assignment Problems | ✅ Complete |
+| Week 2 | Session 2 | Class Problems | ✅ Complete |
+| Week 2 | Session 2 | Assignment Problems | ✅ Complete |
+| Week 3 | Session 3 | Class Problems | ✅ Complete |
+| Week 3 | Session 3 | Assignment Problems | ✅ Complete |
+| Week 4 | Session 4 | Class Problems | ✅ Complete |
+| Week 4 | Session 4 | Assignment Problems | ✅ Complete |
 
 ## 🗂️ Repository Structure
 
@@ -54,10 +43,29 @@ Currently working through reinforced OOP problems covering:
 step_semester_3/
 │
 ├── src/
-│   └── session_1/
-│       ├── assignment_problems/
+│   ├── week1/
+│   │   ├── class_problems/
+│   │   └── assigment_problems/
+│   │
+│   ├── week2/
+│   │   ├── class_problems/
+│   │   └── assigment_problems/
+│   │
+│   ├── week3/
+│   │   ├── class_problems/
+│   │   └── assigment_problems/
+│   │
+│   └── week4/
 │       ├── class_problems/
-│       └── ...
+│       └── assigment_problems/
 │
-├── .gitignore
-└── step_semester_3.iml
+└── README.md
+```
+
+## 🌿 Branching Model
+
+- `main` — documentation and daily progress log
+- `develop` — clean base Java project skeleton
+- `feature/session_<n>` — coding work for each session
+
+Feature branches are created from `develop` and are not merged back into `develop`.
