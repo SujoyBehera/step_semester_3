@@ -55,6 +55,7 @@ Completed Category B practice problems covering access modifiers, visibility rul
 | Week 4 | Session 4 | Class Problems | ✅ Complete |
 | Week 4 | Session 4 | Assignment Problems | ✅ Complete |
 | Week 5 | Session 5 | Class Problems | ✅ Complete |
+| Week 5 | Session 5 | Assignment Problems | ✅ Complete |
 
 ## 🗂️ Repository Structure
 
