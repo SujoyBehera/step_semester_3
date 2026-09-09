@@ -2,6 +2,20 @@
 
 A collection of my Semester 3 coursework, practice problems, assignments, and Java implementations completed as part of the STEP program.
 
+## Date: 09-09-2026
+**Today's Work:**
+- Completed Week 5 / Session 5 Category B practice problems on access modifiers and encapsulation.
+- Added solutions for field visibility checking, subclass access, seat-booking encapsulation, JavaBean/OTP properties, and immutable booking receipts/nightly settlement.
+- Created `feature/session_5` from the clean `develop` branch.
+
+**Next Session Plan:**
+- Continue with the next Semester 3 Java/OOP session and add the work to a new feature branch from `develop`.
+
+**Issues Faced:**
+- None
+
+---
+
 ## 📚 Current Progress
 
 ### Java / OOP
@@ -24,6 +38,10 @@ Completed classwork and assignment problems covering classes and objects, constr
 
 Completed classwork and assignment problems covering constructor overloading, `this()`, `this`, `final`, static initialization, static members, and `instanceof`.
 
+#### Week 5 — Session 5
+
+Completed Category B practice problems covering access modifiers, visibility rules, subclass access, encapsulation, JavaBeans, write-only OTP properties, immutability, defensive copying, and `instanceof`-based settlement processing.
+
 ### Problems Completed
 
 | Week | Session | Section | Progress |
@@ -36,6 +54,7 @@ Completed classwork and assignment problems covering constructor overloading, `t
 | Week 3 | Session 3 | Assignment Problems | ✅ Complete |
 | Week 4 | Session 4 | Class Problems | ✅ Complete |
 | Week 4 | Session 4 | Assignment Problems | ✅ Complete |
+| Week 5 | Session 5 | Class Problems | ✅ Complete |
 
 ## 🗂️ Repository Structure
 
@@ -55,7 +74,11 @@ step_semester_3/
 │   │   ├── class_problems/
 │   │   └── assigment_problems/
 │   │
-│   └── week4/
+│   ├── week4/
+│   │   ├── class_problems/
+│   │   └── assigment_problems/
+│   │
+│   └── week5/
 │       ├── class_problems/
 │       └── assigment_problems/
 │
