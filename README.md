@@ -2,17 +2,17 @@
 
 A collection of my Semester 3 coursework, practice problems, assignments, and Java implementations completed as part of the STEP program.
 
-## Date: 09-09-2026
+## Date: 11-09-2026
 **Today's Work:**
-- Completed Week 5 / Session 5 Category B practice problems on access modifiers and encapsulation.
-- Added solutions for field visibility checking, subclass access, seat-booking encapsulation, JavaBean/OTP properties, and immutable booking receipts/nightly settlement.
-- Created `feature/session_5` from the clean `develop` branch.
+- Added Week 5 / Session 5 assignment problems on access modifiers, encapsulation, JavaBeans, immutability, and object modeling.
+- Added all 5 assignment problems under `src/week5/assigment_problems/` on `feature/session_5`.
+- Implemented access checking, subclass visibility rules, inventory encapsulation, write-once/write-only JavaBean properties, defensive copying, wither-style immutable receipts, static initialization, and `instanceof`-based nightly circulation processing.
 
 **Next Session Plan:**
 - Continue with the next Semester 3 Java/OOP session and add the work to a new feature branch from `develop`.
 
 **Issues Faced:**
-- None
+- The PDF specifies `LoanReceipt` as `final` while also requiring `ReferenceOnlyLoanReceipt` to extend it. The implementation keeps `LoanReceipt` genuinely final and uses composition for the reference-only variant so the Java design remains compilable.
 
 ---
 
@@ -41,6 +41,8 @@ Completed classwork and assignment problems covering constructor overloading, `t
 #### Week 5 — Session 5
 
 Completed Category B practice problems covering access modifiers, visibility rules, subclass access, encapsulation, JavaBeans, write-only OTP properties, immutability, defensive copying, and `instanceof`-based settlement processing.
+
+Completed assignment problems covering access visibility aggregation, cross-package subclass access, validated inventory state transitions, JavaBean write-once/write-only properties, and immutable loan receipts with nightly circulation processing.
 
 ### Problems Completed
 
