@@ -6,13 +6,13 @@ A collection of my Semester 3 coursework, practice problems, assignments, and Ja
 **Today's Work:**
 - Added Week 5 / Session 5 assignment problems on access modifiers, encapsulation, JavaBeans, immutability, and object modeling.
 - Added all 5 assignment problems under `src/week5/assigment_problems/` on `feature/session_5`.
-- Implemented access checking, subclass visibility rules, inventory encapsulation, write-once/write-only JavaBean properties, defensive copying, wither-style immutable receipts, static initialization, and `instanceof`-based nightly circulation processing.
+- Implemented access checking, subclass visibility rules, inventory encapsulation, write-once/write-only JavaBean properties, defensive copying, immutable loan receipts, static initialization, and `instanceof`-based nightly circulation processing.
 
 **Next Session Plan:**
 - Continue with the next Semester 3 Java/OOP session and add the work to a new feature branch from `develop`.
 
 **Issues Faced:**
-- The PDF specifies `LoanReceipt` as `final` while also requiring `ReferenceOnlyLoanReceipt` to extend it. The implementation keeps `LoanReceipt` genuinely final and uses composition for the reference-only variant so the Java design remains compilable.
+- The PDF specifies `LoanReceipt` as `final` while also requiring `ReferenceOnlyLoanReceipt` to extend it. These requirements conflict in Java, so the implementation uses a compile-safe composition-based interpretation for the reference-only receipt.
 
 ---
 
