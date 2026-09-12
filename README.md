@@ -2,6 +2,20 @@
 
 A collection of my Semester 3 coursework, practice problems, assignments, and Java implementations completed as part of the STEP program.
 
+## Date: 13-09-2026
+**Today's Work:**
+- Completed Week 6 Category B practice and assignment problems focused on inheritance and polymorphism.
+- Added Week 6 work under `src/week6/class_problems/` and `src/week6/assigment_problems/` on `feature/session_6`.
+- Covered single, multilevel, and hierarchical inheritance, method overriding, `super`, polymorphism, `instanceof`, safe downcasting, static counters, final fields, overloaded methods, defensive copying, `StringBuilder`, and validation using `charAt()` and `Character` methods.
+
+**Next Session Plan:**
+- Continue with the next Semester 3 Java/OOP session and add the work to a new feature branch from `develop`.
+
+**Issues Faced:**
+- Week 6 contains multiple classes with the same conceptual names across the Practice and Assignment sets, so each set is kept in its own `class_problems` / `assigment_problems` package to avoid class-name conflicts.
+
+---
+
 ## Date: 11-09-2026
 **Today's Work:**
 - Added Week 5 / Session 5 assignment problems on access modifiers, encapsulation, JavaBeans, immutability, and object modeling.
@@ -12,7 +26,7 @@ A collection of my Semester 3 coursework, practice problems, assignments, and Ja
 - Continue with the next Semester 3 Java/OOP session and add the work to a new feature branch from `develop`.
 
 **Issues Faced:**
-- The PDF specifies `LoanReceipt` as `final` while also requiring `ReferenceOnlyLoanReceipt` to extend it. These requirements conflict in Java, so the implementation uses a compile-safe composition-based interpretation for the reference-only receipt.
+- The Week 5 assignment specifies `LoanReceipt` as `final` while also requiring `ReferenceOnlyLoanReceipt` to extend it. These requirements conflict in Java, so inheritance was prioritized to keep the requested polymorphic design compilable.
 
 ---
 
@@ -44,6 +58,14 @@ Completed Category B practice problems covering access modifiers, visibility rul
 
 Completed assignment problems covering access visibility aggregation, cross-package subclass access, validated inventory state transitions, JavaBean write-once/write-only properties, and immutable loan receipts with nightly circulation processing.
 
+#### Week 6 — Session 6
+
+Completed Category B practice and assignment problems focused on inheritance and polymorphism.
+
+Practice work covers `LibraryMember` inheritance, `StudentMember`, `HonorsStudentMember`, `FacultyMember`, method overriding, fine-history defensive copying, polymorphic reporting, safe downcasting, static member numbering, renewal-code validation, overloaded borrowing, and nightly audit processing.
+
+Assignment work covers `GymMember`, `PremiumMember`, `EliteMember`, `GroupClassMember`, inheritance hierarchies, late-fee overriding with `super`, polymorphic display, safe downcasting, static membership numbering, referral-code validation, overloaded fee payments, and weekly check-in processing.
+
 ### Problems Completed
 
 | Week | Session | Section | Progress |
@@ -58,6 +80,8 @@ Completed assignment problems covering access visibility aggregation, cross-pack
 | Week 4 | Session 4 | Assignment Problems | ✅ Complete |
 | Week 5 | Session 5 | Class Problems | ✅ Complete |
 | Week 5 | Session 5 | Assignment Problems | ✅ Complete |
+| Week 6 | Session 6 | Class Problems | ✅ Complete |
+| Week 6 | Session 6 | Assignment Problems | ✅ Complete |
 
 ## 🗂️ Repository Structure
 
@@ -81,7 +105,11 @@ step_semester_3/
 │   │   ├── class_problems/
 │   │   └── assigment_problems/
 │   │
-│   └── week5/
+│   ├── week5/
+│   │   ├── class_problems/
+│   │   └── assigment_problems/
+│   │
+│   └── week6/
 │       ├── class_problems/
 │       └── assigment_problems/
 │
