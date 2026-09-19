@@ -1,6 +1,0 @@
-package week7.class_problems;
-public class LetterNote extends DeliveryNote {
-    private final String trackingId;
-    public LetterNote(String trackingId){ if(trackingId==null||trackingId.trim().isEmpty()) throw new IllegalArgumentException("trackingId cannot be blank"); this.trackingId=trackingId; }
-    public String confirmDelivery(){ return "Letter "+trackingId+" delivered"; }
-}
