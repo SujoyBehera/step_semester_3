@@ -2,6 +2,19 @@
 
 A collection of my Semester 3 coursework, practice problems, assignments, and Java implementations completed as part of the STEP program.
 
+## Date: 19-09-2026
+**Today's Work:**
+- Completed Week 7 classwork and assignment problems focused on abstraction, interfaces, inheritance, polymorphism, method overriding, method overloading, `super`, and `instanceof`.
+- Added Week 7 work under `src/week7/class_problems/` and `src/week7/assigment_problems/` on `feature/session_7`.
+- Covered abstract classes, abstract methods, interfaces, interface implementation, multilevel inheritance, polymorphic method calls, safe downcasting, overloaded methods, static counters, final fields, and `StringBuilder` processing.
+
+**Next Session Plan:**
+- Continue with the next Semester 3 Java/OOP session and add the work to a new feature branch from `develop`.
+
+**Issues Faced:**
+- Week 7 contains multiple independent problem sets, so the solutions are kept separately under `class_problems` and `assigment_problems` as required by the repository structure.
+
+---
 ## Date: 13-09-2026
 **Today's Work:**
 - Completed Week 6 Category B practice and assignment problems focused on inheritance and polymorphism.
@@ -58,6 +71,14 @@ Completed Category B practice problems covering access modifiers, visibility rul
 
 Completed assignment problems covering access visibility aggregation, cross-package subclass access, validated inventory state transitions, JavaBean write-once/write-only properties, and immutable loan receipts with nightly circulation processing.
 
+#### Week 7 — Session 7
+
+Completed classwork and assignment problems focused on abstraction, interfaces, inheritance, and polymorphism.
+
+Classwork covers abstract toy and instrument hierarchies, printable interfaces, kitchen tools with interfaces, delivery-note abstraction, method overriding, overloaded delivery confirmation, and polymorphic processing with `StringBuilder`.
+
+Assignment work covers ringable devices, abstract art-piece hierarchies, multilevel garden-tool inheritance, classroom devices with the `Chargeable` interface and overloaded methods, and drone tracking with `instanceof`-based safe downcasting.
+
 #### Week 6 — Session 6
 
 Completed Category B practice and assignment problems focused on inheritance and polymorphism.
@@ -82,6 +103,8 @@ Assignment work covers `GymMember`, `PremiumMember`, `EliteMember`, `GroupClassM
 | Week 5 | Session 5 | Assignment Problems | ✅ Complete |
 | Week 6 | Session 6 | Class Problems | ✅ Complete |
 | Week 6 | Session 6 | Assignment Problems | ✅ Complete |
+| Week 7 | Session 7 | Class Problems | ✅ Complete |
+| Week 7 | Session 7 | Assignment Problems | ✅ Complete |
 
 ## 🗂️ Repository Structure
 
@@ -109,7 +132,11 @@ step_semester_3/
 │   │   ├── class_problems/
 │   │   └── assigment_problems/
 │   │
-│   └── week6/
+│   ├── week6/
+│   │   ├── class_problems/
+│   │   └── assigment_problems/
+│   │
+│   └── week7/
 │       ├── class_problems/
 │       └── assigment_problems/
 │
