@@ -2,19 +2,19 @@
 
 A collection of my Semester 3 coursework, practice problems, assignments, and Java implementations completed as part of the STEP program.
 
-## Date: 19-09-2026
+## Date: 03-10-2026
 **Today's Work:**
-- Completed Week 7 Category B Practice and Assignment problems focused on abstraction, interfaces, inheritance, polymorphism, method overriding, method overloading, `super`, and `instanceof`.
-- Added Week 7 work under `src/week7/class_problems/` and `src/week7/assigment_problems/` on `feature/session_7`.
-- Followed the repository format of **5 questions = 5 Java code files** for each Week 7 section.
-- Classwork files: `Toy.java`, `Printable.java`, `Instrument.java`, `KitchenTool.java`, and `DeliveryNote.java`.
-- Assignment files: `Ringable.java`, `ArtPiece.java`, `GardenTool.java`, `ClassroomDevice.java`, and `Drone.java`.
+- Completed Week 8 Category B Practice and Assignment problems focused on object-oriented system design, class relationships, state management, polymorphism, and interface-driven abstractions.
+- Added Week 8 work under `src/week8/class_problems/` and `src/week8/assigment_problems/` on `feature/session_8`.
+- Followed the repository format of **5 questions = 5 Java code files** for each Week 8 section.
+- Classwork files: `Vehicle.java`, `Employee.java`, `Question.java`, `Room.java`, and `PaymentMethod.java`.
+- Assignment files: `WashingMachine.java`, `Assignment.java`, `Seat.java`, `MembershipPlan.java`, and `NotificationChannel.java`.
 
 **Next Session Plan:**
 - Continue with the next Semester 3 Java/OOP session and create the next feature branch from `develop`.
 
 **Issues Faced:**
-- The Week 7 Garden Tools problem asks for an abstract `use()` method in `GardenTool` while also requiring subclasses to call `super.use()`. Since Java cannot call an abstract parent method with `super.use()`, the base class provides the shared garden-use message so the inheritance chain remains compilable and follows the intended output.
+- None. All 10 problem domains were structured with dedicated domain classes and encapsulation rules while keeping 1 code file per problem to preserve the repository format.
 
 ---
 
@@ -63,6 +63,23 @@ Completed Category B Practice and Assignment problems focused on abstraction, in
 - `ClassroomDevice.java` — Digital Classroom Setup
 - `Drone.java` — Skyline Delivery Fleet
 
+#### Week 8 — Session 8
+Completed Category B Practice and Assignment problems focused on object-oriented system design, class relationships, state transitions, interfaces, and polymorphism.
+
+**Class Problems — 5 code files**
+- `Vehicle.java` — Vehicle Rental System
+- `Employee.java` — Employee Leave Request Workflow
+- `Question.java` — Online Examination System
+- `Room.java` — Hotel Booking System
+- `PaymentMethod.java` — Payment Processing for a Shopping System
+
+**Assignment Problems — 5 code files**
+- `WashingMachine.java` — The Hostel Laundry Queue
+- `Assignment.java` — The Assignment Submission Portal
+- `Seat.java` — The Campus Premiere Ticket Counter
+- `MembershipPlan.java` — The FitZone Membership Desk
+- `NotificationChannel.java` — The Campus Notice Broadcaster
+
 ### Problems Completed
 
 | Week | Session | Section | Progress |
@@ -81,6 +98,8 @@ Completed Category B Practice and Assignment problems focused on abstraction, in
 | Week 6 | Session 6 | Assignment Problems | ✅ Complete |
 | Week 7 | Session 7 | Class Problems | ✅ Complete |
 | Week 7 | Session 7 | Assignment Problems | ✅ Complete |
+| Week 8 | Session 8 | Class Problems | ✅ Complete |
+| Week 8 | Session 8 | Assignment Problems | ✅ Complete |
 
 ## 🗂️ Repository Structure
 
@@ -112,20 +131,35 @@ step_semester_3/
 │   │   ├── class_problems/
 │   │   └── assigment_problems/
 │   │
-│   └── week7/
+│   ├── week7/
+│   │   ├── class_problems/
+│   │   │   ├── Toy.java
+│   │   │   ├── Printable.java
+│   │   │   ├── Instrument.java
+│   │   │   ├── KitchenTool.java
+│   │   │   └── DeliveryNote.java
+│   │   │
+│   │   └── assigment_problems/
+│   │       ├── Ringable.java
+│   │       ├── ArtPiece.java
+│   │       ├── GardenTool.java
+│   │       ├── ClassroomDevice.java
+│   │       └── Drone.java
+│   │
+│   └── week8/
 │       ├── class_problems/
-│       │   ├── Toy.java
-│       │   ├── Printable.java
-│       │   ├── Instrument.java
-│       │   ├── KitchenTool.java
-│       │   └── DeliveryNote.java
+│       │   ├── Vehicle.java
+│       │   ├── Employee.java
+│       │   ├── Question.java
+│       │   ├── Room.java
+│       │   └── PaymentMethod.java
 │       │
 │       └── assigment_problems/
-│           ├── Ringable.java
-│           ├── ArtPiece.java
-│           ├── GardenTool.java
-│           ├── ClassroomDevice.java
-│           └── Drone.java
+│           ├── WashingMachine.java
+│           ├── Assignment.java
+│           ├── Seat.java
+│           ├── MembershipPlan.java
+│           └── NotificationChannel.java
 │
 └── README.md
 ```
