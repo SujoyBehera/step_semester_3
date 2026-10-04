@@ -2,27 +2,27 @@
 
 A collection of my Semester 3 coursework, practice problems, assignments, and Java implementations completed as part of the STEP program.
 
-## Date: 03-10-2026
+## Date: 04-10-2026
 **Today's Work:**
-- Completed Week 8 Category B Practice and Assignment problems focused on object-oriented system design, class relationships, state management, polymorphism, and interface-driven abstractions.
-- Added Week 8 work under `src/week8/class_problems/` and `src/week8/assigment_problems/` on `feature/session_8`.
-- Followed the repository format of **5 questions = 5 Java code files** for each Week 8 section.
-- Classwork files: `Vehicle.java`, `Employee.java`, `Question.java`, `Room.java`, and `PaymentMethod.java`.
-- Assignment files: `WashingMachine.java`, `Assignment.java`, `Seat.java`, `MembershipPlan.java`, and `NotificationChannel.java`.
+- Completed Week 9 Category B Data Structures Practice and Assignment problems covering 2D arrays, hashing, two pointers, sliding window, and binary search.
+- Added Week 9 work under `src/week9/class_problems/` and `src/week9/assigment_problems/` on `feature/session_9`.
+- Followed the repository format of **5 questions = 5 Java code files** for each Week 9 section.
+- Classwork files: `LibraryCatalogLookup.java`, `WarehouseGridSummary.java`, `PairWithTargetSum.java`, `PairWithTargetSumUnsortedArray.java`, and `MaximizeAreaBetweenTwoBoundaries.java`.
+- Assignment files: `ClassTopperFinder.java`, `MergingTwoTokenQueues.java`, `MostPopularCanteenOrder.java`, `HotWeatherAlertWindows.java`, and `TicketPriceSlotFinder.java`.
 
 **Next Session Plan:**
-- Continue with the next Semester 3 Java/OOP session and create the next feature branch from `develop`.
+- Continue with the next Semester 3 Data Structures/Algorithms session and create the next feature branch from `develop`.
 
 **Issues Faced:**
-- None. All 10 problem domains were structured with dedicated domain classes and encapsulation rules while keeping 1 code file per problem to preserve the repository format.
+- None. Implemented optimal time and space complexity solutions across all algorithmic paradigms while providing alternative brute-force/two-pointer comparisons.
 
 ---
 
 ## 📚 Current Progress
 
-### Java / OOP
+### Java / OOP & Data Structures
 
-Currently working through Java Object-Oriented Programming concepts and weekly assignments.
+Currently working through Java Object-Oriented Programming and Data Structures weekly assignments.
 
 #### Week 1 — Session 1
 Completed classwork and assignment problems covering Java Strings, arrays, input handling, methods, validation, loops, and basic problem solving.
@@ -80,6 +80,23 @@ Completed Category B Practice and Assignment problems focused on object-oriented
 - `MembershipPlan.java` — The FitZone Membership Desk
 - `NotificationChannel.java` — The Campus Notice Broadcaster
 
+#### Week 9 — Session 9
+Completed Category B Practice and Assignment problems covering 2D arrays, hashing, two pointers, sliding window, and binary search.
+
+**Class Problems — 5 code files**
+- `LibraryCatalogLookup.java` — Library Catalog Lookup
+- `WarehouseGridSummary.java` — Warehouse Grid Summary
+- `PairWithTargetSum.java` — Pair With Target Sum (Unsorted)
+- `PairWithTargetSumUnsortedArray.java` — Pair With Target Sum (Unsorted Array)
+- `MaximizeAreaBetweenTwoBoundaries.java` — Maximize Area Between Two Boundaries
+
+**Assignment Problems — 5 code files**
+- `ClassTopperFinder.java` — Class Topper Finder
+- `MergingTwoTokenQueues.java` — Merging Two Token Queues
+- `MostPopularCanteenOrder.java` — Most Popular Canteen Order
+- `HotWeatherAlertWindows.java` — Hot Weather Alert Windows
+- `TicketPriceSlotFinder.java` — Ticket Price Slot Finder
+
 ### Problems Completed
 
 | Week | Session | Section | Progress |
@@ -100,6 +117,8 @@ Completed Category B Practice and Assignment problems focused on object-oriented
 | Week 7 | Session 7 | Assignment Problems | ✅ Complete |
 | Week 8 | Session 8 | Class Problems | ✅ Complete |
 | Week 8 | Session 8 | Assignment Problems | ✅ Complete |
+| Week 9 | Session 9 | Class Problems | ✅ Complete |
+| Week 9 | Session 9 | Assignment Problems | ✅ Complete |
 
 ## 🗂️ Repository Structure
 
@@ -146,20 +165,35 @@ step_semester_3/
 │   │       ├── ClassroomDevice.java
 │   │       └── Drone.java
 │   │
-│   └── week8/
+│   ├── week8/
+│   │   ├── class_problems/
+│   │   │   ├── Vehicle.java
+│   │   │   ├── Employee.java
+│   │   │   ├── Question.java
+│   │   │   ├── Room.java
+│   │   │   └── PaymentMethod.java
+│   │   │
+│   │   └── assigment_problems/
+│   │       ├── WashingMachine.java
+│   │       ├── Assignment.java
+│   │       ├── Seat.java
+│   │       ├── MembershipPlan.java
+│   │       └── NotificationChannel.java
+│   │
+│   └── week9/
 │       ├── class_problems/
-│       │   ├── Vehicle.java
-│       │   ├── Employee.java
-│       │   ├── Question.java
-│       │   ├── Room.java
-│       │   └── PaymentMethod.java
+│       │   ├── LibraryCatalogLookup.java
+│       │   ├── WarehouseGridSummary.java
+│       │   ├── PairWithTargetSum.java
+│       │   ├── PairWithTargetSumUnsortedArray.java
+│       │   └── MaximizeAreaBetweenTwoBoundaries.java
 │       │
 │       └── assigment_problems/
-│           ├── WashingMachine.java
-│           ├── Assignment.java
-│           ├── Seat.java
-│           ├── MembershipPlan.java
-│           └── NotificationChannel.java
+│           ├── ClassTopperFinder.java
+│           ├── MergingTwoTokenQueues.java
+│           ├── MostPopularCanteenOrder.java
+│           ├── HotWeatherAlertWindows.java
+│           └── TicketPriceSlotFinder.java
 │
 └── README.md
 ```
