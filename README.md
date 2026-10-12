@@ -2,19 +2,19 @@
 
 A collection of my Semester 3 coursework, practice problems, assignments, and Java implementations completed as part of the STEP program.
 
-## Date: 04-10-2026
+## Date: 13-10-2026
 **Today's Work:**
-- Completed Week 9 Category B Data Structures Practice and Assignment problems covering 2D arrays, hashing, two pointers, sliding window, and binary search.
-- Added Week 9 work under `src/week9/class_problems/` and `src/week9/assigment_problems/` on `feature/session_9`.
-- Followed the repository format of **5 questions = 5 Java code files** for each Week 9 section.
-- Classwork files: `LibraryCatalogLookup.java`, `WarehouseGridSummary.java`, `PairWithTargetSum.java`, `PairWithTargetSumUnsortedArray.java`, and `MaximizeAreaBetweenTwoBoundaries.java`.
-- Assignment files: `ClassTopperFinder.java`, `MergingTwoTokenQueues.java`, `MostPopularCanteenOrder.java`, `HotWeatherAlertWindows.java`, and `TicketPriceSlotFinder.java`.
+- Completed Week 10 Category B Practice and Assignment problems covering OOP abstraction, encapsulation, polymorphism, inheritance hierarchies, and custom linked list data structures (singly, doubly, and circular linked lists).
+- Added Week 10 work under `src/week10/class_problems/` and `src/week10/assigment_problems/` on `feature/session_10`.
+- Followed the repository format of **5 questions = 5 Java code files** for each Week 10 section.
+- Classwork files: `BankAccountWithdrawalSystem.java`, `CampusVehiclePassSystem.java`, `StudentClubRegistrationManagement.java`, `ClassMarksGridAnalysis.java`, and `PayrollRegisterSystem.java`.
+- Assignment files: `PriorityTokenInsertion.java`, `CancelledOrdersCleanup.java`, `ReverseTheQueue.java`, `TrainCoachesBothWays.java`, and `RoundRobinGameTurns.java`.
 
 **Next Session Plan:**
-- Continue with the next Semester 3 Data Structures/Algorithms session and create the next feature branch from `develop`.
+- Continue with the next Semester 3 Data Structures/OOP session and create the next feature branch from `develop`.
 
 **Issues Faced:**
-- None. Implemented optimal time and space complexity solutions across all algorithmic paradigms while providing alternative brute-force/two-pointer comparisons.
+- None. Designed robust domain models and manual pointer manipulation for linked lists without using `java.util.LinkedList`, adhering strictly to constraints and complexity goals.
 
 ---
 
@@ -97,6 +97,23 @@ Completed Category B Practice and Assignment problems covering 2D arrays, hashin
 - `HotWeatherAlertWindows.java` — Hot Weather Alert Windows
 - `TicketPriceSlotFinder.java` — Ticket Price Slot Finder
 
+#### Week 10 — Session 10
+Completed Category B Practice and Assignment problems covering OOP domain modeling and custom Linked List structures.
+
+**Class Problems — 5 code files**
+- `BankAccountWithdrawalSystem.java` — Bank Account Withdrawal System
+- `CampusVehiclePassSystem.java` — Campus Vehicle Pass System
+- `StudentClubRegistrationManagement.java` — Student Club Registration Management
+- `ClassMarksGridAnalysis.java` — Class Marks Grid Analysis
+- `PayrollRegisterSystem.java` — Payroll Register System
+
+**Assignment Problems — 5 code files**
+- `PriorityTokenInsertion.java` — Priority Token Insertion
+- `CancelledOrdersCleanup.java` — Cancelled Orders Cleanup
+- `ReverseTheQueue.java` — Reverse the Queue
+- `TrainCoachesBothWays.java` — Train Coaches Both Ways
+- `RoundRobinGameTurns.java` — Round-Robin Game Turns
+
 ### Problems Completed
 
 | Week | Session | Section | Progress |
@@ -119,6 +136,8 @@ Completed Category B Practice and Assignment problems covering 2D arrays, hashin
 | Week 8 | Session 8 | Assignment Problems | ✅ Complete |
 | Week 9 | Session 9 | Class Problems | ✅ Complete |
 | Week 9 | Session 9 | Assignment Problems | ✅ Complete |
+| Week 10 | Session 10 | Class Problems | ✅ Complete |
+| Week 10 | Session 10 | Assignment Problems | ✅ Complete |
 
 ## 🗂️ Repository Structure
 
@@ -180,20 +199,35 @@ step_semester_3/
 │   │       ├── MembershipPlan.java
 │   │       └── NotificationChannel.java
 │   │
-│   └── week9/
+│   ├── week9/
+│   │   ├── class_problems/
+│   │   │   ├── LibraryCatalogLookup.java
+│   │   │   ├── WarehouseGridSummary.java
+│   │   │   ├── PairWithTargetSum.java
+│   │   │   ├── PairWithTargetSumUnsortedArray.java
+│   │   │   └── MaximizeAreaBetweenTwoBoundaries.java
+│   │   │
+│   │   └── assigment_problems/
+│   │       ├── ClassTopperFinder.java
+│   │       ├── MergingTwoTokenQueues.java
+│   │       ├── MostPopularCanteenOrder.java
+│   │       ├── HotWeatherAlertWindows.java
+│   │       └── TicketPriceSlotFinder.java
+│   │
+│   └── week10/
 │       ├── class_problems/
-│       │   ├── LibraryCatalogLookup.java
-│       │   ├── WarehouseGridSummary.java
-│       │   ├── PairWithTargetSum.java
-│       │   ├── PairWithTargetSumUnsortedArray.java
-│       │   └── MaximizeAreaBetweenTwoBoundaries.java
+│       │   ├── BankAccountWithdrawalSystem.java
+│       │   ├── CampusVehiclePassSystem.java
+│       │   ├── StudentClubRegistrationManagement.java
+│       │   ├── ClassMarksGridAnalysis.java
+│       │   └── PayrollRegisterSystem.java
 │       │
 │       └── assigment_problems/
-│           ├── ClassTopperFinder.java
-│           ├── MergingTwoTokenQueues.java
-│           ├── MostPopularCanteenOrder.java
-│           ├── HotWeatherAlertWindows.java
-│           └── TicketPriceSlotFinder.java
+│           ├── PriorityTokenInsertion.java
+│           ├── CancelledOrdersCleanup.java
+│           ├── ReverseTheQueue.java
+│           ├── TrainCoachesBothWays.java
+│           └── RoundRobinGameTurns.java
 │
 └── README.md
 ```
