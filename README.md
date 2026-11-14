@@ -4,17 +4,17 @@ A collection of my Semester 3 coursework, practice problems, assignments, and Ja
 
 ## Date: 14-11-2026
 **Today's Work:**
-- Completed Week 11 Category B Practice and Assignment problems covering Singly, Doubly, and Circular Linked List operations and Sorting Algorithms (Bubble Sort, Insertion Sort, Merge Sort with Inversion Counting, Quickselect, and Counting Sort).
-- Added Week 11 work under `src/week11/class_problems/` and `src/week11/assigment_problems/` on `feature/session_11`.
-- Followed the repository format of one Java code file per coding problem across both Week 11 sections.
-- Classwork files: `PrintCircularSinglyLinkedList.java`, `InsertAtTailDoublyLinkedList.java`, `RemoveFirstKNodesSinglyLinkedList.java`, `DeleteNthNodeSinglyLinkedList.java`, `SplitSinglyLinkedListIntoTwoHalves.java`, `ReverseFirstKNodesSinglyLinkedList.java`, `CountNodesSinglyLinkedList.java`, `CheckIfSinglyLinkedListIsEmpty.java`, `InsertAtEndCircularSinglyLinkedList.java`, and `DeleteLastNodeDoublyLinkedList.java`.
-- Assignment files: `NoticeBoardShuffle.java`, `HackathonRegistrationDesk.java`, `AttendanceDisorderScore.java`, `PlacementCutoff.java`, and `ContestLeaderboard.java`.
+- Completed Week 12 Category B Practice and Coding Assignment problems covering stacks (infix-to-postfix conversion, postfix evaluation, bounded array-based undo history), Caesar cipher string manipulation, binary search lower bound queries, stable insertion sort with competition ranking, defensive deep copying, and single-pass Singly/Doubly Linked List algorithms.
+- Added Week 12 work under `src/week12/class_problems/` and `src/week12/assigment_problems/` on `feature/session_12`.
+- Followed the repository format of one Java code file per coding problem across both Week 12 sections.
+- Classwork files: `PocketCalculator.java`, `SecretNoticeShifter.java`, `EditorUndoHistory.java`, `ScoreBandCounter.java`, `LeaderboardRanking.java`, and `SectionTimetables.java`.
+- Assignment files: `MiddleSeatFinder.java`, `LastButKAnnouncement.java`, `MergingTwoWaitlists.java`, `BrowserTabStrip.java`, and `CounsellingListFirst.java`.
 
 **Next Session Plan:**
 - Continue with the next Semester 3 Data Structures/OOP session and create the next feature branch from `develop`.
 
 **Issues Faced:**
-- None. Implemented all linked list pointer manipulations and custom sorting algorithms from scratch without `Arrays.sort` or `Collections.sort`, documenting time complexity, extra space complexity, and stability.
+- None. Implemented all stack, binary search, sorting, deep copy, and custom linked list algorithms from scratch without `java.util.LinkedList`, documenting time and space complexities.
 
 ---
 
@@ -136,6 +136,24 @@ Completed Category B Practice and Assignment problems covering Singly, Doubly, a
 - `PlacementCutoff.java` — The Placement Cutoff
 - `ContestLeaderboard.java` — The Contest Leaderboard
 
+#### Week 12 — Session 12
+Completed Category B Practice and Coding Assignment problems covering stacks, string shifting, binary search lower bound, stable insertion sort with competition ranking, deep copying, and single-pass Singly/Doubly Linked List algorithms.
+
+**Class Problems — 6 code files**
+- `PocketCalculator.java` — Pocket Calculator
+- `SecretNoticeShifter.java` — Secret Notice Shifter
+- `EditorUndoHistory.java` — Editor Undo History
+- `ScoreBandCounter.java` — Score Band Counter
+- `LeaderboardRanking.java` — Leaderboard Ranking
+- `SectionTimetables.java` — Section Timetables
+
+**Assignment Problems — 5 code files**
+- `MiddleSeatFinder.java` — Middle Seat Finder
+- `LastButKAnnouncement.java` — Last-but-k Announcement
+- `MergingTwoWaitlists.java` — Merging Two Waitlists
+- `BrowserTabStrip.java` — Browser Tab Strip
+- `CounsellingListFirst.java` — Counselling List First
+
 ### Problems Completed
 
 | Week | Session | Section | Progress |
@@ -162,6 +180,8 @@ Completed Category B Practice and Assignment problems covering Singly, Doubly, a
 | Week 10 | Session 10 | Assignment Problems | ✅ Complete |
 | Week 11 | Session 11 | Class Problems | ✅ Complete |
 | Week 11 | Session 11 | Assignment Problems | ✅ Complete |
+| Week 12 | Session 12 | Class Problems | ✅ Complete |
+| Week 12 | Session 12 | Assignment Problems | ✅ Complete |
 
 ## 🗂️ Repository Structure
 
@@ -253,25 +273,41 @@ step_semester_3/
 │   │       ├── TrainCoachesBothWays.java
 │   │       └── RoundRobinGameTurns.java
 │   │
-│   └── week11/
+│   ├── week11/
+│   │   ├── class_problems/
+│   │   │   ├── PrintCircularSinglyLinkedList.java
+│   │   │   ├── InsertAtTailDoublyLinkedList.java
+│   │   │   ├── RemoveFirstKNodesSinglyLinkedList.java
+│   │   │   ├── DeleteNthNodeSinglyLinkedList.java
+│   │   │   ├── SplitSinglyLinkedListIntoTwoHalves.java
+│   │   │   ├── ReverseFirstKNodesSinglyLinkedList.java
+│   │   │   ├── CountNodesSinglyLinkedList.java
+│   │   │   ├── CheckIfSinglyLinkedListIsEmpty.java
+│   │   │   ├── InsertAtEndCircularSinglyLinkedList.java
+│   │   │   └── DeleteLastNodeDoublyLinkedList.java
+│   │   │
+│   │   └── assigment_problems/
+│   │       ├── NoticeBoardShuffle.java
+│   │       ├── HackathonRegistrationDesk.java
+│   │       ├── AttendanceDisorderScore.java
+│   │       ├── PlacementCutoff.java
+│   │       └── ContestLeaderboard.java
+│   │
+│   └── week12/
 │       ├── class_problems/
-│       │   ├── PrintCircularSinglyLinkedList.java
-│       │   ├── InsertAtTailDoublyLinkedList.java
-│       │   ├── RemoveFirstKNodesSinglyLinkedList.java
-│       │   ├── DeleteNthNodeSinglyLinkedList.java
-│       │   ├── SplitSinglyLinkedListIntoTwoHalves.java
-│       │   ├── ReverseFirstKNodesSinglyLinkedList.java
-│       │   ├── CountNodesSinglyLinkedList.java
-│       │   ├── CheckIfSinglyLinkedListIsEmpty.java
-│       │   ├── InsertAtEndCircularSinglyLinkedList.java
-│       │   └── DeleteLastNodeDoublyLinkedList.java
+│       │   ├── PocketCalculator.java
+│       │   ├── SecretNoticeShifter.java
+│       │   ├── EditorUndoHistory.java
+│       │   ├── ScoreBandCounter.java
+│       │   ├── LeaderboardRanking.java
+│       │   └── SectionTimetables.java
 │       │
 │       └── assigment_problems/
-│           ├── NoticeBoardShuffle.java
-│           ├── HackathonRegistrationDesk.java
-│           ├── AttendanceDisorderScore.java
-│           ├── PlacementCutoff.java
-│           └── ContestLeaderboard.java
+│           ├── MiddleSeatFinder.java
+│           ├── LastButKAnnouncement.java
+│           ├── MergingTwoWaitlists.java
+│           ├── BrowserTabStrip.java
+│           └── CounsellingListFirst.java
 │
 └── README.md
 ```
