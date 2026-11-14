@@ -2,19 +2,19 @@
 
 A collection of my Semester 3 coursework, practice problems, assignments, and Java implementations completed as part of the STEP program.
 
-## Date: 13-10-2026
+## Date: 14-11-2026
 **Today's Work:**
-- Completed Week 10 Category B Practice and Assignment problems covering OOP abstraction, encapsulation, polymorphism, inheritance hierarchies, and custom linked list data structures (singly, doubly, and circular linked lists).
-- Added Week 10 work under `src/week10/class_problems/` and `src/week10/assigment_problems/` on `feature/session_10`.
-- Followed the repository format of **5 questions = 5 Java code files** for each Week 10 section.
-- Classwork files: `BankAccountWithdrawalSystem.java`, `CampusVehiclePassSystem.java`, `StudentClubRegistrationManagement.java`, `ClassMarksGridAnalysis.java`, and `PayrollRegisterSystem.java`.
-- Assignment files: `PriorityTokenInsertion.java`, `CancelledOrdersCleanup.java`, `ReverseTheQueue.java`, `TrainCoachesBothWays.java`, and `RoundRobinGameTurns.java`.
+- Completed Week 11 Category B Practice and Assignment problems covering Singly, Doubly, and Circular Linked List operations and Sorting Algorithms (Bubble Sort, Insertion Sort, Merge Sort with Inversion Counting, Quickselect, and Counting Sort).
+- Added Week 11 work under `src/week11/class_problems/` and `src/week11/assigment_problems/` on `feature/session_11`.
+- Followed the repository format of one Java code file per coding problem across both Week 11 sections.
+- Classwork files: `PrintCircularSinglyLinkedList.java`, `InsertAtTailDoublyLinkedList.java`, `RemoveFirstKNodesSinglyLinkedList.java`, `DeleteNthNodeSinglyLinkedList.java`, `SplitSinglyLinkedListIntoTwoHalves.java`, `ReverseFirstKNodesSinglyLinkedList.java`, `CountNodesSinglyLinkedList.java`, `CheckIfSinglyLinkedListIsEmpty.java`, `InsertAtEndCircularSinglyLinkedList.java`, and `DeleteLastNodeDoublyLinkedList.java`.
+- Assignment files: `NoticeBoardShuffle.java`, `HackathonRegistrationDesk.java`, `AttendanceDisorderScore.java`, `PlacementCutoff.java`, and `ContestLeaderboard.java`.
 
 **Next Session Plan:**
 - Continue with the next Semester 3 Data Structures/OOP session and create the next feature branch from `develop`.
 
 **Issues Faced:**
-- None. Designed robust domain models and manual pointer manipulation for linked lists without using `java.util.LinkedList`, adhering strictly to constraints and complexity goals.
+- None. Implemented all linked list pointer manipulations and custom sorting algorithms from scratch without `Arrays.sort` or `Collections.sort`, documenting time complexity, extra space complexity, and stability.
 
 ---
 
@@ -114,6 +114,28 @@ Completed Category B Practice and Assignment problems covering OOP domain modeli
 - `TrainCoachesBothWays.java` — Train Coaches Both Ways
 - `RoundRobinGameTurns.java` — Round-Robin Game Turns
 
+#### Week 11 — Session 11
+Completed Category B Practice and Assignment problems covering Singly, Doubly, and Circular Linked List operations and Sorting Algorithms.
+
+**Class Problems — 10 code files**
+- `PrintCircularSinglyLinkedList.java` — Print Circular Singly Linked List
+- `InsertAtTailDoublyLinkedList.java` — Insert at Tail of Doubly Linked List (from Head)
+- `RemoveFirstKNodesSinglyLinkedList.java` — Remove First K Nodes from Singly Linked List
+- `DeleteNthNodeSinglyLinkedList.java` — Delete N-th Node from Singly Linked List
+- `SplitSinglyLinkedListIntoTwoHalves.java` — Split Singly Linked List into Two Halves
+- `ReverseFirstKNodesSinglyLinkedList.java` — Reverse First K Nodes of Singly Linked List
+- `CountNodesSinglyLinkedList.java` — Count Nodes in Singly Linked List
+- `CheckIfSinglyLinkedListIsEmpty.java` — Check if Singly Linked List is Empty
+- `InsertAtEndCircularSinglyLinkedList.java` — Insert at End of Circular Singly Linked List
+- `DeleteLastNodeDoublyLinkedList.java` — Delete Last Node from Doubly Linked List (from Head)
+
+**Assignment Problems — 5 code files**
+- `NoticeBoardShuffle.java` — The Notice Board Shuffle
+- `HackathonRegistrationDesk.java` — The Hackathon Registration Desk
+- `AttendanceDisorderScore.java` — The Attendance Disorder Score
+- `PlacementCutoff.java` — The Placement Cutoff
+- `ContestLeaderboard.java` — The Contest Leaderboard
+
 ### Problems Completed
 
 | Week | Session | Section | Progress |
@@ -138,6 +160,8 @@ Completed Category B Practice and Assignment problems covering OOP domain modeli
 | Week 9 | Session 9 | Assignment Problems | ✅ Complete |
 | Week 10 | Session 10 | Class Problems | ✅ Complete |
 | Week 10 | Session 10 | Assignment Problems | ✅ Complete |
+| Week 11 | Session 11 | Class Problems | ✅ Complete |
+| Week 11 | Session 11 | Assignment Problems | ✅ Complete |
 
 ## 🗂️ Repository Structure
 
@@ -214,20 +238,40 @@ step_semester_3/
 │   │       ├── HotWeatherAlertWindows.java
 │   │       └── TicketPriceSlotFinder.java
 │   │
-│   └── week10/
+│   ├── week10/
+│   │   ├── class_problems/
+│   │   │   ├── BankAccountWithdrawalSystem.java
+│   │   │   ├── CampusVehiclePassSystem.java
+│   │   │   ├── StudentClubRegistrationManagement.java
+│   │   │   ├── ClassMarksGridAnalysis.java
+│   │   │   └── PayrollRegisterSystem.java
+│   │   │
+│   │   └── assigment_problems/
+│   │       ├── PriorityTokenInsertion.java
+│   │       ├── CancelledOrdersCleanup.java
+│   │       ├── ReverseTheQueue.java
+│   │       ├── TrainCoachesBothWays.java
+│   │       └── RoundRobinGameTurns.java
+│   │
+│   └── week11/
 │       ├── class_problems/
-│       │   ├── BankAccountWithdrawalSystem.java
-│       │   ├── CampusVehiclePassSystem.java
-│       │   ├── StudentClubRegistrationManagement.java
-│       │   ├── ClassMarksGridAnalysis.java
-│       │   └── PayrollRegisterSystem.java
+│       │   ├── PrintCircularSinglyLinkedList.java
+│       │   ├── InsertAtTailDoublyLinkedList.java
+│       │   ├── RemoveFirstKNodesSinglyLinkedList.java
+│       │   ├── DeleteNthNodeSinglyLinkedList.java
+│       │   ├── SplitSinglyLinkedListIntoTwoHalves.java
+│       │   ├── ReverseFirstKNodesSinglyLinkedList.java
+│       │   ├── CountNodesSinglyLinkedList.java
+│       │   ├── CheckIfSinglyLinkedListIsEmpty.java
+│       │   ├── InsertAtEndCircularSinglyLinkedList.java
+│       │   └── DeleteLastNodeDoublyLinkedList.java
 │       │
 │       └── assigment_problems/
-│           ├── PriorityTokenInsertion.java
-│           ├── CancelledOrdersCleanup.java
-│           ├── ReverseTheQueue.java
-│           ├── TrainCoachesBothWays.java
-│           └── RoundRobinGameTurns.java
+│           ├── NoticeBoardShuffle.java
+│           ├── HackathonRegistrationDesk.java
+│           ├── AttendanceDisorderScore.java
+│           ├── PlacementCutoff.java
+│           └── ContestLeaderboard.java
 │
 └── README.md
 ```
